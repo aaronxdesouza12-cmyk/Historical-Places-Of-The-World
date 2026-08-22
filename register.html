@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<head>
+  <title>Historical Monuments Registration</title>
+  <link rel="stylesheet" href="register.css">
+  <style>
+    /* Inline styling for error messages and dropdowns */
+    .error {
+      color: red;
+      font-size: 14px;
+      display: none;
+      margin-top: 4px;
+    }
+
+    input:invalid, textarea:invalid, select:invalid {
+      border: 2px solid red;
+    }
+
+    input:valid, textarea:valid, select:valid {
+      border: 2px solid green;
+    }
+
+    .image-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .image-container img {
+      width: 80%;
+      max-width: 600px;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="navbar">
+    <a href="home.html">Home</a>
+    <a href="monuments.html">Monuments</a>
+    <a href="tours.html">Tours</a>
+    <a href="about.html">About Us</a>
+    <a href="register.html">Register</a>
+  </div>
+
+  <div class="title">Register for Historical Monuments</div>
+
+  <div class="image-container">
+    <img src="https://www.shutterstock.com/image-photo/collage-india-historical-monuments-landmarks-600nw-608261636.jpg" alt="Historical Monuments" />
+  </div>
+
+  <form id="tourForm" novalidate>
+    <!-- Visitor Info -->
+    <div class="section-box">
+      <h2>Visitor Information</h2>
+      <label>Full Name:</label>
+      <input type="text" id="name" required>
+      <div class="error" id="nameError">Please enter your full name.</div>
+
+      <label>Email:</label>
+      <input type="email" id="email" required>
+      <div class="error" id="emailError">Please enter a valid email address.</div>
+
+      <label>Phone:</label>
+      <input type="tel" id="phone" pattern="[0-9]{10}" required>
+      <div class="error" id="phoneError">Enter a valid 10-digit phone number.</div>
+    </div>
+
+    <label>Preferred Monument:</label>
+<select id="destination" required>
+  <option value="">-- Select a Monument --</option>
+  <optgroup label="World's Historical Monuments">
+    <option>Colosseum, Italy</option>
+    <option>Great Wall of China, China</option>
+    <option>Pyramids of Giza, Egypt</option>
+    <option>Statue of Liberty, USA</option>
+    <option>Machu Picchu, Peru</option>
+    <option>Angkor Wat, Cambodia</option>
+    <option>Mount Fuji, Japan</option>
+    <option>Taj Mahal, India</option>
+    <option>Chichén Itzá, Mexico</option>
+    <option>Rapa Nui (Easter Island), Chile</option>
+    <option>Christ the Redeemer, Brazil</option>
+    <option>Eiffel Tower, France</option>
+  </optgroup>
+</select>
+<div class="error" id="destinationError">Please select a monument.</div>
+
+<label>Country:</label>
+<select id="country" required>
+  <option value="">-- Select a Country --</option>
+  <option>Italy</option>
+  <option>China</option>
+  <option>Egypt</option>
+  <option>USA</option>
+  <option>Peru</option>
+  <option>Cambodia</option>
+  <option>Japan</option>
+  <option>India</option>
+  <option>Mexico</option>
+  <option>Chile (Easter Island)</option>
+  <option>Brazil</option>
+  <option>France</option>
+</select>
+<div class="error" id="countryError">Please select a country.</div>
+
+
+    <!-- Payment -->
+    <div class="section-box">
+      <h2>Payment Details</h2>
+      <label>Card Type:</label><br>
+      <input type="radio" name="card" value="Visa" required> Visa
+      <input type="radio" name="card" value="Mastercard"> Mastercard
+      <input type="radio" name="card" value="AmEx"> AmEx
+      <div class="error" id="cardError">Please select a card type.</div>
+      <br><br>
+
+      <label>Card Number:</label>
+      <input type="text" id="cardNumber" pattern="[0-9]{16}" required>
+      <div class="error" id="cardNumberError">Enter a valid 16-digit card number.</div>
+    </div>
+
+    <input type="submit" value="Book Monument Visit">
+  </form>
+
+  <footer>
+    &copy; 2025 Historical Monuments
+  </footer>
+
+  <script>
+    const form = document.getElementById("tourForm");
+
+    const fields = {
+      name: { input: document.getElementById("name"), error: document.getElementById("nameError") },
+      email: { input: document.getElementById("email"), error: document.getElementById("emailError") },
+      phone: { input: document.getElementById("phone"), error: document.getElementById("phoneError") },
+      destination: { input: document.getElementById("destination"), error: document.getElementById("destinationError") },
+      country: { input: document.getElementById("country"), error: document.getElementById("countryError") },
+      cardNumber: { input: document.getElementById("cardNumber"), error: document.getElementById("cardNumberError") }
+    };
+
+    Object.values(fields).forEach(({ input, error }) => {
+      input.addEventListener("input", () => {
+        error.style.display = input.validity.valid ? "none" : "block";
+      });
+    });
+
+    const cardRadios = document.querySelectorAll('input[name="card"]');
+    const cardError = document.getElementById("cardError");
+    cardRadios.forEach(radio => {
+      radio.addEventListener("change", () => {
+        cardError.style.display = "none";
+      });
+    });
+
+    form.addEventListener("submit", e => {
+      e.preventDefault();
+      let valid = true; 
+      Object.values(fields).forEach(({ input, error }) => {
+        if (!input.validity.valid) {
+          error.style.display = "block";
+          valid = false;
+        }
+      });
+      if (![...cardRadios].some(r => r.checked)) {
+        cardError.style.display = "block";
+        valid = false;
+      }
+      if (valid) alert("✅ Form successfully validated for Historical Monuments!");
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,230 @@
+/* General */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff8f0;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: coral;
+  padding: 14px 25px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ffe0b2;
+}
+
+.auth-buttons .btn {
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  margin-left: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.signin {
+  background-color: white;
+  color: coral;
+}
+
+.signup {
+  background-color: darkorange;
+  color: white;
+}
+
+.signin:hover, .signup:hover {
+  transform: scale(1.05);
+}
+
+/* Hero Section */
+.hero {
+  background: url("history.jpg") center center / cover no-repeat;
+  height: 60vh; /* smaller image section */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-text {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  border-radius: 12px;
+  color: white;
+  max-width: 700px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Hover effect */
+.hover-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hover-box:hover {
+  transform: scale(1.05);
+  background-color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+
+/* Title hover change */
+.hover-box h1 {
+  transition: color 0.3s ease;
+}
+
+.hover-box:hover h1 {
+  color: gold;
+}
+
+.hero-text h1 {
+  font-size: 42px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.explore-btn {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  background-color: coral;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.explore-btn:hover {
+  background-color: darkorange;
+  transform: scale(1.05);
+}
+
+/* Intro Section */
+.intro {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #ffe5b4;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.intro h2 {
+  color: indianred;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: coral;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+/* Modal Styling */
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  width: 320px;
+  animation: slideIn 0.4s ease;
+  text-align: center;
+}
+
+@keyframes slideIn {
+  from { transform: translateY(-50px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.close {
+  float: right;
+  font-size: 20px;
+  color: red;
+  cursor: pointer;
+}
+
+.form-group {
+  text-align: left;
+  margin: 15px 0;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  width: 100%;
+  background-color: coral;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: darkorange;
+}
+
+.switch {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.switch a {
+  color: coral;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.switch a:hover {
+  text-decoration: underline;
+}

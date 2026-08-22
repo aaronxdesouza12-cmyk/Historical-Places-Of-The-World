@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home - Historical Explorer</title>
+  <link rel="stylesheet" href="home.css" />
+  <script src="auth.js" defer></script>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">Historical Explorer</div>
+    <div class="nav-links">
+      <a href="home.html">Home</a>
+      <a href="monuments.html">Monuments</a>
+      <a href="tours.html">Tours</a>
+      <a href="about.html">About Us</a>
+      <a href="register.html">Register</a>
+    </div>
+    <div class="auth-buttons">
+      <button id="signinBtn" class="btn signin">Sign In</button>
+      <button id="signupBtn" class="btn signup">Sign Up</button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-text hover-box">
+      <h1 id="greeting">Good Morning, Explorer!</h1>
+      <p>Discover the most iconic historical sites around the world and travel through centuries of wonder.</p>
+      <a href="monuments.html" class="explore-btn">Start Exploring</a>
+    </div>
+  </header>
+
+  <!-- Intro Section -->
+  <section class="intro">
+    <h2>Embark on a Journey Through Time</h2>
+    <p>
+      Step into the stories of civilizations that shaped humanity — from the pyramids of Egypt to the temples of Japan. 
+      Let your curiosity guide you through breathtaking heritage landmarks.
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Historical Explorer | Designed by Aaron De Souza
+  </footer>
+
+  <!-- Sign In / Sign Up Modal -->
+  <div id="authModal" class="modal">
+    <div class="modal-content">
+      <span class="close" id="closeModal">&times;</span>
+      <h2 id="modalTitle">Sign In</h2>
+
+      <form id="authForm" novalidate>
+        <div class="form-group" id="nameGroup" style="display:none;">
+          <label>Full Name:</label>
+          <input type="text" id="fullname" placeholder="Enter full name" />
+        </div>
+
+        <div class="form-group">
+          <label>Email:</label>
+          <input type="email" id="email" placeholder="Enter your email" required />
+        </div>
+
+        <div class="form-group">
+          <label>Password:</label>
+          <input type="password" id="password" placeholder="Enter password" required />
+          <small id="attemptInfo"></small>
+        </div>
+
+        <button type="submit" id="submitBtn">Sign In</button>
+
+        <p class="switch">
+          <span id="switchText">Don’t have an account?</span>
+          <a href="#" id="switchLink">Sign Up</a>
+        </p>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
