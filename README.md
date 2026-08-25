@@ -34,18 +34,18 @@ The website allows users to navigate through different sections, explore histori
 
 📄 Website Pages
 
-Page	Description
-index.html	Main landing page
-home.html	Home section
-monuments.html	Historical monuments
-tours.html	Tour information
-about.html	About the project
-register.html	Registration page
+Page	Description :: <br>
+index.html	Main landing page<br>
+home.html	Home section<br>
+monuments.html	Historical monuments<br>
+tours.html	Tour information<br>
+about.html	About the project<br>
+register.html	Registration page<br>
+
 🛠️ Technologies Used
 
 The website was developed using:
-
-HTML5 – Structure and content
+HTML5 – Structure and content 
 CSS3 – Styling, layouts, animations, and visual design
 JavaScript – Interactivity and client-side functionality
 Git & GitHub – Version control and project hosting
