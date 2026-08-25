@@ -16,12 +16,25 @@ The website allows users to navigate through different sections, explore histori
 <img width="1878" height="913" alt="image" src="https://github.com/user-attachments/assets/9b3ea7a8-c61f-4127-a459-072c91699a18" />
 
 🏛️ Monuments – Explore famous historical monuments from around the world.
+
+<img width="1890" height="901" alt="image" src="https://github.com/user-attachments/assets/d45178dd-44d1-4c8a-af3f-c1f49cce14cc" />
+
 🗺️ Tours – View information related to historical-place tours.
+
+<img width="1892" height="855" alt="image" src="https://github.com/user-attachments/assets/ea880857-0d9f-4761-b34e-934c2090be16" />
+
 ℹ️ About – Learn more about the website and project.
+
+<img width="1877" height="807" alt="image" src="https://github.com/user-attachments/assets/e0e440a9-085f-43d1-b780-48128b0ee4fe" />
+
 📝 Registration – User registration interface.
+
+<img width="1907" height="906" alt="image" src="https://github.com/user-attachments/assets/96d5c427-6863-420e-9a13-76b37a5714e7" />
+
 🎨 Responsive Design – Clean and visually appealing layout.
 🖼️ Historical Images – Images are used to make the website more engaging.
 🧭 Easy Navigation – Simple navigation between different pages.
+
 📄 Website Pages
 Page	Description
 index.html	Main landing page
@@ -80,7 +93,3 @@ This project was created as a web development/academic project to demonstrate fu
 👨‍💻 Author
 
 Aaron De Souza
-
-📜 License
-
-This project is created for educational purposes. The content and images used in the project should be used according to their respective sources and licenses.
