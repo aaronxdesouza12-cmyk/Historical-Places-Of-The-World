@@ -25,11 +25,11 @@ The website allows users to navigate through different sections, explore histori
 
 ℹ️ About – Learn more about the website and project.
 
-<img width="1877" height="807" alt="image" src="https://github.com/user-attachments/assets/e0e440a9-085f-43d1-b780-48128b0ee4fe" />
+<img width="595" height="711" alt="image" src="https://github.com/user-attachments/assets/ec35c04e-2340-400e-9170-3bf992239924" />
 
 📝 Registration – User registration interface.
 
-<img width="1907" height="906" alt="image" src="https://github.com/user-attachments/assets/96d5c427-6863-420e-9a13-76b37a5714e7" />
+<img width="595" height="711" alt="image" src="https://github.com/user-attachments/assets/96d5c427-6863-420e-9a13-76b37a5714e7" />
 
 🎨 Responsive Design – Clean and visually appealing layout.
 🖼️ Historical Images – Images are used to make the website more engaging.
