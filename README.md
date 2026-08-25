@@ -52,19 +52,19 @@ Git & GitHub – Version control and project hosting<br>
 GitHub Pages – Website deployment<br>
 
 📁 Project Structure
-Historical-Places-Of-The-World/<br>
+Historical-Places-Of-The-World/<br><br>
 │
 ├── index.html<br>
 ├── home.html<br>
 ├── about.html<br>
 ├── monuments.html<br>
 ├── tours.html<br>
-├── register.html<br><br>
+├── register.html<br>
 │
 ├── home.css<br>
 ├── monuments.css<br>
 ├── tours.css<br>
-├── register.css<br><br>
+├── register.css<br>
 │
 ├── auth.js<br>
 ├── history.jpg<br>
