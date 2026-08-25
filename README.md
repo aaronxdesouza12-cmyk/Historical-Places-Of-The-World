@@ -29,20 +29,14 @@ The website allows users to navigate through different sections, explore histori
 
 📝 Registration – User registration interface.
 
-<img width="505" height="825" alt="image" src="https://github.com/user-attachments/assets/0b3eab71-8a91-4ecf-9489-0fd722e351a0" />
+<img width="493" height="820" alt="image" src="https://github.com/user-attachments/assets/ecdcdfa3-521d-4d9d-ab7f-a4c3e01d4665" />
 
-🎨 Responsive Design – Clean and visually appealing layout.
-🖼️ Historical Images – Images are used to make the website more engaging.
-🧭 Easy Navigation – Simple navigation between different pages.
 
 📄 Website Pages
 
 Page	Description
-
 index.html	Main landing page
-
 home.html	Home section
-
 monuments.html	Historical monuments
 tours.html	Tour information
 about.html	About the project
