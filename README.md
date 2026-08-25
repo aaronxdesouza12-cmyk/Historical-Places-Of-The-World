@@ -36,9 +36,13 @@ The website allows users to navigate through different sections, explore histori
 🧭 Easy Navigation – Simple navigation between different pages.
 
 📄 Website Pages
+
 Page	Description
+
 index.html	Main landing page
+
 home.html	Home section
+
 monuments.html	Historical monuments
 tours.html	Tour information
 about.html	About the project
