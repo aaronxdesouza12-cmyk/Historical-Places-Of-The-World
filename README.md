@@ -13,11 +13,11 @@ The website allows users to navigate through different sections, explore histori
 ✨ Features
 🏠 Home Page – Introduction to the website and its purpose.
 
-<img width="1878" height="913" alt="image" src="https://github.com/user-attachments/assets/9b3ea7a8-c61f-4127-a459-072c91699a18" />
+<img width="1908" height="711" alt="image" src="https://github.com/user-attachments/assets/13c217ea-00cf-4afb-9925-5e5162ee80fb" />
 
 🏛️ Monuments – Explore famous historical monuments from around the world.
 
-<img width="1890" height="901" alt="image" src="https://github.com/user-attachments/assets/d45178dd-44d1-4c8a-af3f-c1f49cce14cc" />
+<img width="538" height="905" alt="image" src="https://github.com/user-attachments/assets/766ec98e-f96c-4e09-a93f-586de8821b18" />
 
 🗺️ Tours – View information related to historical-place tours.
 
@@ -29,7 +29,7 @@ The website allows users to navigate through different sections, explore histori
 
 📝 Registration – User registration interface.
 
-<img width="595" height="711" alt="image" src="https://github.com/user-attachments/assets/96d5c427-6863-420e-9a13-76b37a5714e7" />
+<img width="505" height="825" alt="image" src="https://github.com/user-attachments/assets/0b3eab71-8a91-4ecf-9489-0fd722e351a0" />
 
 🎨 Responsive Design – Clean and visually appealing layout.
 🖼️ Historical Images – Images are used to make the website more engaging.
