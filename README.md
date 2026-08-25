@@ -44,32 +44,33 @@ register.html	Registration page<br>
 
 🛠️ Technologies Used
 
-The website was developed using:
-HTML5 – Structure and content 
-CSS3 – Styling, layouts, animations, and visual design
-JavaScript – Interactivity and client-side functionality
-Git & GitHub – Version control and project hosting
-GitHub Pages – Website deployment
+The website was developed using:<br>
+HTML5 – Structure and content<br>
+CSS3 – Styling, layouts, animations, and visual design<br>
+JavaScript – Interactivity and client-side functionality<br>
+Git & GitHub – Version control and project hosting<br>
+GitHub Pages – Website deployment<br>
 
 📁 Project Structure
-Historical-Places-Of-The-World/
+Historical-Places-Of-The-World/<br>
 │
-├── index.html
-├── home.html
-├── about.html
-├── monuments.html
-├── tours.html
-├── register.html
+├── index.html<br>
+├── home.html<br>
+├── about.html<br>
+├── monuments.html<br>
+├── tours.html<br>
+├── register.html<br><br>
 │
-├── home.css
-├── monuments.css
-├── tours.css
-├── register.css
+├── home.css<br>
+├── monuments.css<br>
+├── tours.css<br>
+├── register.css<br><br>
 │
-├── auth.js
-├── history.jpg
-│
-└── README.md
+├── auth.js<br>
+├── history.jpg<br>
+│<br>
+└── README.md<br>
+
 🚀 Live Website
 
 🌐 Live Website:
